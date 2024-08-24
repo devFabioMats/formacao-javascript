@@ -10,12 +10,13 @@ class Pessoa {
         this.anoDeNascimento = 2022 - idade;
     }
 
+    // método (note que nao precisa do function)
     descrever() {
-        console.log(`Meu nome é ${this.nome} e minha idade é ${this.idade}`);  
+        console.log(`Meu nome é ${this.nome} e minha idade é ${this.idade}`);
     }
 }
 
-function compararPessoas(p1, p2) {
+async function compararPessoas(p1, p2) {
     if (p1.idade > p2.idade) {
         console.log(`${p1.nome} é mais velho(a) que ${p2.nome}`);
     } else if (p2.idade > p1.idade) {
