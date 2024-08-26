@@ -8,11 +8,22 @@
 class carro {
     marca;
     cor;
-    consumo;
+    gastoMedioPorKm;
 
     constructor(marca, cor, consumo) {
         this.marca = marca;
         this.cor = cor;
-        this.consumo = consumo;
+        this.gastoMedioPorKm = gastoMedioPorKm;
     }
+
+    calcularGasto(distancia, precoCombustivel) {
+
+    }
+}
+
+const focus = new carro('Ford', 'Prata', 1 / 10);
+console.log(focus);
+
+function calcularViagem(distancia, consumo) {
+
 }
