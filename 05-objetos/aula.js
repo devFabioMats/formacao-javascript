@@ -10,7 +10,7 @@ class Pessoa {
         this.anoDeNascimento = 2022 - idade;
     }
 
-    // método (note que nao precisa do function)
+    // método (note que nao precisa do function) 
     descrever() {
         console.log(`Meu nome é ${this.nome} e minha idade é ${this.idade}`);
     }
