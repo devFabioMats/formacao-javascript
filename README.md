@@ -13,7 +13,6 @@
 - Curso de JavaScript oferecido pela plataforma [DIO](https://web.dio.me/home)
 - Esta formação oferece uma experiência educacional completa de JavaScript na Web, com ênfase no consumo de APIs, convenções e boas práticas
 - Ministrado pelo grande: [Venilton Falvo Jr.](https://github.com/falvojr) (falvojr)
-- Colaboração na imersão em JavaScript: [Renan JP](https://github.com/RenanJPaula) (RenanJPaula)
 
 ### ℹ️ **Sobre o repositório:**
 - ⚠️ Repositório criado exclusivamente para armazenar o conteúdo aprendido durante o curso
