@@ -10,20 +10,21 @@ class carro {
     cor;
     gastoMedioPorKm;
 
-    constructor(marca, cor, consumo) {
+    constructor(marca, cor, gastoMedioPorKm) {
         this.marca = marca;
         this.cor = cor;
         this.gastoMedioPorKm = gastoMedioPorKm;
     }
 
     calcularGasto(distancia, precoCombustivel) {
-
+        return (distancia * this.gastoMedioPorKm * precoCombustivel).toFixed(2);
     }
 }
 
-const focus = new carro('Ford', 'Prata', 1 / 10);
-console.log(focus);
+const Focus = new carro('Ford', 'Prata', 1 / 8.89);
+console.log(Focus);
+console.log(`CP -> Marília Custo: R$ ${(Focus.calcularGasto(170, 4.27))}`); // 80.68
 
-function calcularViagem(distancia, consumo) {
-
-}
+const Yaris = new carro('Toyota', 'Prata', 1 / 17);
+console.log(Yaris);
+console.log(`CP -> Marília Custo: R$ ${(Yaris.calcularGasto(170, 4.27))}`); // 80.68
