@@ -2,7 +2,7 @@
 <div align="center">
   <p align="center">
     <img 
-       width="150" height="150" src="https://img.icons8.com/fluency/240/javascript.png" alt="node-js"
+       width="150" height="150" src="https://img.icons8.com/fluency/240/javascript.png" alt="javascript"
     />
     <h1>Formação: JavaScript Developer</h1>
   </p>
