@@ -21,13 +21,13 @@ const n = gets();
 
 for (let i = 0; i < n; i++) {
     const numero = gets();
-    if(numero % 2 === 0){
-        if (numero > maiorNumeroPar){
+    if (numero % 2 === 0) {
+        if (numero > maiorNumeroPar) {
             maiorNumeroPar = numero;
         }
     }
-    if(numero % 2 != 0){
-        if (numero < menorNumeroImpar){
+    if (numero % 2 != 0) {
+        if (numero < menorNumeroImpar) {
             menorNumeroImpar = numero;
         }
     }
